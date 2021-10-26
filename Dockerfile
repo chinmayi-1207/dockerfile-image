@@ -1,5 +1,5 @@
 FROM nginx:alpine  
-COPY . /usr/share/nginx/html  
+COPY index.html /usr/share/nginx/html  
 WORKDIR /usr/share/nginx/html  
-RUN index.html  
-//CMD ["java", "Hello"]
+  
+
