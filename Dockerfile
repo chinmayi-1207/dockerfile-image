@@ -1,5 +1,4 @@
 FROM nginx:alpine  
-COPY . /usr/share/nginx/html  
-WORKDIR /usr/share/nginx/html  
-RUN index.html  
+COPY index.html /usr/share/nginx/html  
+ 
 
